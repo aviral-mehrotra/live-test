@@ -6,7 +6,7 @@ function App() {
   const [info, setInfo] = useState(null)
 
   const getRecords = () => {
-    fetch("http://localhost:8080/get_data")
+    fetch("https://aviral-mehrotra.github.io/live-test/get_data")
       .then(response => {
         return response.json()
       })
