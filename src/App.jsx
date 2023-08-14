@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Button onClick={getRecords}>get records</Button>
-      { info ? <h1>{info.MRData.RaceTable.Races[0].raceName}</h1> : <div/>} 
+      { info ? <h1>{info.MRData.RaceTable.Races[0].raceName}</h1> : <div/>}
     </>
   )
 }
