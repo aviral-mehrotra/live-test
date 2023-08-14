@@ -1,7 +1,7 @@
 {
   "homepage": "https://aviral-mehrotra.github.io/live-test",
   "name": "live-test",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "proxy": "http://localhost:8080",
   "type": "module",
